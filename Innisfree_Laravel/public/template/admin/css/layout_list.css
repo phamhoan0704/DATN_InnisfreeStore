@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+.management_content {
+    /* background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-wrap: wrap; */
+}
+
+.layout-list-row {
+    margin-bottom: 16px;
+    background-color: white;
+}
+
+.layout-list-btn-wrap {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    padding: 20px;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.layout-list-btn-wrap button {
+    margin-left: 12px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+}
+
+table tr {
+    height: 70px;
+}
+
+table td {
+    padding: 5px 20px;
+
+}
+
+.title_order td {
+    font-weight: bold;
+    /* border-bottom: 1px solid black; */
+    color: white;
+}
+
+.title_order {
+    height: 50px;
+    
+}
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+table a {
+    display: block;
+    text-decoration: none;
+    color: #131313;
+    font-weight: bold;
+}
+
+.btn_add {
+    border: none;
+}
+
+.btn_search {
+    background-color: rgb(1 161 75);
+    padding: 7px;
+    cursor: pointer;
+}
+
+table img {
+    height: 50px;
+    width: 50px;
+}
+
+.management_content .input_search1 {
+    width: 300px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.label_search {
+    margin-right: 30px;
+}
+
+.ipn_search {
+    /* width: 300px;
+    height: 35px;
+    margin-right: 20px;
+    padding: 0.37rem 0.75rem;
+    font-size: 15px;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da; */
+    width: 300px;
+    height: 40px;
+    padding: 0 16px;
+    font-size: 16px;
+    line-height: 48px;
+    border-radius: 30px;
+    outline: 0;
+    border: 1px solid #ccc;
+}
+
+.ipn_add {
+    width: 350px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #4c4c4c;
+    padding: 10px;                                                      
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.pagination>.active>a , 
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover{
+    z-index: 3;
+    /* color: #fff; */
+    cursor: default;
+    color: black !important;
+    background-color: white !important;
+    border-color:#ccc !important;
+}
+.pagination>li>a, .pagination>li>span{
+    padding: 6px 30px !important;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover{
+    color:#12b560 ;
+}
+.ckb_title{
+    width: 2%;
+}
+.id_title{
+    width: 7%;
+}
+.name_title{
+    width: 20%;
+}
+.createdDate_title{
+    width: 10%;
+}
+.updateDate_title{
+    width: 10%;
+}
+.title_order{
+    background-color: #68686873;
+}
+.layout-list-row table button{
+    margin-right: 20px;
+}
+.layout-list-row table a{
+    margin-right: 20px;
+}
+.action_title{
+    float:right;
+    line-height: 50px;
+}
+.action_title1{
+    float:right;
+    line-height: 40px;
+    margin-right: 25px
+}
+
+.table tr:nth-child(even) {
+    background-color:#e0ece0;
+}
+.layout_table tr:nth-child(even) {
+    background-color:#e0ece0;
+}
+
+.title_order {
+    /* background-color: rgba(141, 159, 189, 0.34); */
+    /* background: linear-gradient(90deg, rgba(52,148,230,1) 0%, rgba(236,110,173,1) 100%); */
+}
+input::placeholder {
+
+    opacity: 0.5;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.name_hiden{
+    height: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.management_main{
+    padding: 10px 0px 8px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-top: 4px solid #30c466;
+    background-color: white;
+}
+#exampleModalCenter .modal-dialog{
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    top: 50%;
+    margin: 0 auto;
+    
+}

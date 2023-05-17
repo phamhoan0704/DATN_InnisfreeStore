@@ -1,0 +1,168 @@
+.login_container {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.login_wapper {
+    border-radius: 0.3rem;
+    display: flex;
+    max-width: 100%;
+    /* flex-direction: column; */
+    align-items: center;
+    background: #fff;
+    padding: 30px;
+    /* box-shadow: 0 2px 4px rgb(0 0 0 / 10%); */
+    width: 60%;
+    height: 400px;
+    
+}
+
+.login_fa-block {}
+
+.login_tittle {
+    font-size: 20px;
+    margin-right: 10%;
+    height: 100%;
+    background-color: #12b560;
+    width: 100%;
+}
+.login_tittle h2{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 145px;
+}
+.login_form {
+    padding: 0 10px 10px;
+}
+
+
+/* begin text input */
+
+.login_group {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 15px;
+    margin-bottom: 0.675rem;
+}
+
+.login_userip {}
+
+.login_loginf {
+    display: flex;
+    font-size: 15px;
+    min-width: 16rem;
+    /* background-color: #fff; */
+    /* border: solid 1px #d3cece; */
+}
+#login_user {
+    width: 100%;
+    margin-top: 10px;
+}
+#login_user input {
+    width: 100%;
+    padding: 5px;
+    height: 37px;
+    border: none;
+    
+    border: solid 1px #ccc;
+    width: 350px;
+    height: 50px;
+    border-radius: 0.3rem;
+}
+
+.login_passwordipagain {
+    margin-top: 5px;
+}
+#login_pass{
+    width: 100%;
+}
+#login_pass input {
+    width: 100%;
+    padding: 5px;
+    height: 50px;
+    /* // border: solid 1px #E7E7E7; */
+    border: 0px;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+}
+
+
+
+
+#login_showpass {
+  
+    height: 37px;
+    line-height: 37px;
+}
+
+#login_showpass>button {
+   
+    /* width: 32px;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    height: 30px;
+    margin: 2px 2px 2px -35px; */
+    
+   
+}
+
+.login_messerror {
+    color: red;
+    min-width: 1rem;
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0.25rem 0 0;
+    background: unset!important;
+}
+
+.login_messerror>span {
+    background: none;
+    color: red;
+}
+
+.login_submit_btn {
+    margin-bottom: 20px;
+}
+
+.login_submit_btn button {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #12b560;
+    border: 0;
+    border-radius: 0.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 60px;
+    margin-top: 30px;
+}
+
+sp1 span {
+    display: block;
+    padding: 1px 1px 10px;
+}
+
+sp1 span>a {
+    color: blue;
+}
+.login_sp1{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-bottom: 15px;
+
+}
+.login_sp1 span{
+    font-size: 18px;
+    color: black;
+}
+.login_sp1 span a{
+    color: #ccc;
+}

@@ -1,0 +1,144 @@
+.sale_management_content {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(236, 236, 236); */
+    /* background-color: #fff; */
+
+}
+
+.sale_management_main {
+    margin: 0 4px;
+    flex: 1;
+    background-color: white;
+    padding: 24px 28px;
+    -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    margin-bottom: 24px;
+    border-radius: 15px;
+    border-top: 4px solid #30c466;
+    /* background-color: #fff; */
+    /* padding: 24px 24px 8px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-top: 4px solid #30c466; */
+}
+
+.sale_management_main h1 {
+    margin-bottom: 24px;
+    color: black;
+    text-align: center;
+    line-height: 2em;
+    margin-top: -12px;
+}
+
+.sale_management-head {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* margin-bottom: 8px; */
+    /* margin-top: 12px; */
+    height: 160px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sale_management-filter button {
+    /* padding: 4px 16px;
+    border: 1px solid black; */
+}
+
+.sale_management-filter input {
+    margin: 0px 24px 0 8px;
+    width: 218px;
+    height: 40px;
+}
+
+.sale_management__select {
+    /* border: 1px solid #01a14b;
+    border-radius: 40px; */
+    padding: 10px 20px;
+}
+
+.sale_management-table tr,
+.sale_management-table th,
+.sale_management-table td {
+    /* border: 1px solid green; */
+    border-collapse: collapse;
+}
+
+.sale_management-table {
+    margin-bottom: 24px;
+}
+
+.sale_management-table thead td {
+    font-weight: bold;
+    text-align: center;
+    /* background-color:  rgba(145,234,228,1); */
+
+    color: white;
+}
+
+.sale_management-table tr {
+    height: auto;
+}
+.sale_management-table tr:nth-child(even) {
+    background-color:#e0ece0;
+}
+.sale_management-table td {
+    padding: 8px 8px;
+}
+
+.sale_management-table thead {
+    /* background-color: rgba(141, 159, 189, 0.34); */
+    /* background: linear-gradient(90deg, rgba(52,148,230,1) 0%, rgba(236,110,173,1) 100%); */
+    background-color: #68686873;
+}
+
+.sale_management-table thead,
+.sale_management-table tbody {
+    display: block;
+}
+
+.sale_management-table tbody {
+    overflow-y: scroll;
+    /* height: 500px; */
+}
+
+.sale_management-table td,
+.sale_management-table th {
+    border: solid 1px #ccc;
+}
+
+.sale_management-table thead tr {
+    display: flex;
+    width: calc(100% - 17px);
+}
+
+.sale_management-table tbody tr {
+    display: flex;
+    width: 100%;
+}
+
+.float-right {
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.sale_management-total {
+    font-size: 18px;
+    text-align: right;
+    margin-right: 24px;
+}
+
+.sale_management-total span {
+    margin-left: 32px;
+    font-weight: 500;
+}
+.sortBtn{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+}

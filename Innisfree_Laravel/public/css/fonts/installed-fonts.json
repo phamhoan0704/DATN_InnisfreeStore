@@ -1,0 +1,8 @@
+{
+    "roboto-black": {
+        "normal": "D:\\SUBJECT-A\\L-MNM\\BookStore_Laravel\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto-Black",
+        "bold": "D:\\SUBJECT-A\\L-MNM\\BookStore_Laravel\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto-Black",
+        "italic": "D:\\SUBJECT-A\\L-MNM\\BookStore_Laravel\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto-Black",
+        "bold_italic": "D:\\SUBJECT-A\\L-MNM\\BookStore_Laravel\\vendor\\dompdf\\dompdf\/lib\/fonts\/Roboto-Black"
+    }
+}

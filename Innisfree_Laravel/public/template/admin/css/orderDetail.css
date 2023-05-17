@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(236, 236, 236); */
+}
+
+.order_detail_main {
+    display: flex;
+    padding-left: 50px;
+    width: 100%;
+    background-color: white;
+    /* margin-left: 50px;
+    padding-right:20px; */
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border-top: 4px solid #30c466;
+    background-color: white;    
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+
+}
+
+.order_detail_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order_detail_main table {
+    border-spacing: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.order_detail_main .table_pdt tr {
+    height: 70px;
+}
+
+.order_detail_main .table_pdt td {
+    /* border-bottom: 1px solid black; */
+}
+
+.order_detail_main .table_user tr {
+    height: 30px;
+}
+
+.order_detail_main table td {
+    padding: 10px;
+}
+
+.title_order_detail td {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.title_order_detail {
+    height: 50px;
+}
+
+.order_detail_main table a {
+    display: block;
+    text-decoration: none;
+    color: #131313;
+    font-weight: bold;
+}
+
+.order_detail_main table img {
+    height: 70px;
+    width: auto;
+}
+
+.order_status_update {
+    /* height: 200px; */
+    background-color: white;
+}
+
+.order_detail_main button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(1 161 75);
+    float: right;
+    margin: 10px;
+}
+
+.order_status_update {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    /* margin-bottom: 50px; */
+    background-color: white;
+}
+
+.order_status_update label {
+    line-height: 50px;
+}
+
+.order_status_update select {
+    height: 40px;
+    width: 300px;
+}
+.order_detail_main .table_user{
+    width: 40%;
+    /* margin-right: 15%; */
+    box-shadow: none;
+    border-right:1px solid #ccc ;
+}
+.order_detail_main .table_pdt {
+    width: 100%;
+    box-shadow: none;
+    margin-left: 50px;
+}

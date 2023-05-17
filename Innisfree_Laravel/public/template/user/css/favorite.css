@@ -1,0 +1,11 @@
+.product-block2 {
+    position: relative;
+    border-radius: 4px solid #333;
+    box-shadow: 0 px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: transform ease-in 0.1s;
+    will-change: transform;
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    margin-right: 50px;
+}

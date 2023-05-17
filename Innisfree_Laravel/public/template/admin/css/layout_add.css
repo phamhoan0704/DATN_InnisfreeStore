@@ -1,0 +1,244 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 236, 236);
+}
+.user_add_main{
+    padding-left: 50px;
+    background-color: white;
+    
+}
+
+table{
+    border-spacing: 0;
+    font-size:14px ;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.table_user tr{
+    height: 50px;
+}
+table td{
+    padding: 5px;
+    width: 200px;
+}
+
+table input{
+    height: 30px;
+    width: 300px;
+    
+}
+.account_style{
+    width: 300px;
+    height: 30px;
+} */
+
+.add_form {
+    width: 100%;
+    border-spacing: 0;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    border-top: 4px solid #30c466;
+    justify-content: flex-start;
+}
+
+.form_row {
+    /* height: 100px; */
+    padding: 10px 60px 10px 35px;
+}
+.error_message{
+    margin-left: 175px;
+    margin-top: 10px;
+}
+.form_row label {
+    width: 150px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.add_form .des {
+    /* height: 100%; */
+    /* width: 500px; */
+}
+
+.detail_txt {}
+
+input[type=file] {
+    display: inline;
+}
+
+.detail_form {
+    width: 95%;
+    margin-left: 20px;
+}
+.file-upload {
+    background-color: #ffffff;
+    width: 600px;
+    margin: 0 auto;
+    /* padding: 20px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  }
+  
+  .file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1FB264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824B;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .file-upload-btn:hover {
+    background: #1AA059;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+  
+  .file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .image-upload-wrap {
+    /* margin-top: 20px; */
+    border: 4px dashed #1FB264;
+    position: relative;
+
+  }
+  
+  .image-dropping,
+  .image-upload-wrap:hover {
+    background-color: #1FB264;
+    border: 4px dashed #ffffff;
+  }
+  
+  .image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+  }
+  
+  .drag-text {
+    text-align: center;
+  }
+  
+  .drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #15824B;
+    padding: 60px 0;
+    font-size: 20px;
+  }
+  
+  .file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+  #detail_Show{
+    display: none;
+  }
+  #detail_Show1{
+    display: none;
+
+  }
+  .detail_title{
+    cursor: pointer;
+    width: 100% !important;
+  }
+  .detail_title_image{
+    width: 15px;
+  }
+
+  .error_general{
+    color: white;
+    padding-left:20px;
+    line-height:40px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    background-color:#1FB264 ;
+  }
+  .detail_div{
+    width: 100%;
+    /* height: 50px; */
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  .btn_div{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+  }
